@@ -5,7 +5,7 @@ fib = [1, 1]
 for i in range(max_value-2):
     fib.append(fib[i] + fib[i+1])
 
-# Algorithm Golden ratiom
+# Algorithm Golden ratio
 golden_ratio = []
 for i in range(len(fib)-1):
     golden_ratio.append(fib[i+1] / fib[i])
